@@ -5,7 +5,7 @@ cat foods.txt > read.txt
 pwd > pwd.txt
 ls > ls.txt 
 cp foods.txt copy.txt 
-alias printdate="date '+%Y-%m-%d %H:%M:%S;'"
+alias printdate="date '+%m-%d-%Y'"
 printdate > date.txt
 wc -w foods.txt | awk '{print $1}' > textcount.txt
 ps | head -5 > process.txt
